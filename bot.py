@@ -6,7 +6,7 @@ from PIL import Image
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
 
-TOKEN = "8825490054:AAGju_Hk19gWGJ8xZfVZy956ni4C8Z3pI1w"
+TOKEN = "8825490054:AAFUxsViCZYwsY76fjtXDEXgJbHkj8ggd-4"
 CHANNEL = "@jamahouse"
 
 # ---------------- OLX PARSER ----------------
