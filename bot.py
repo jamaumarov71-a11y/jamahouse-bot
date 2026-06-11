@@ -86,4 +86,4 @@ app.add_handler(MessageHandler(filters.TEXT, handle_message))
 app.add_handler(CallbackQueryHandler(publish))
 
 print("Bot started")
-app.run_polling()
+app.run_polling(drop_pending_updates=True, allowed_updates=["message", "callback_query"])
